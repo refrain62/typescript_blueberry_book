@@ -18,7 +18,7 @@ v16.8.0
 
 # コンパイル＆実行
 ```
-$ cd /src
+$ cd ./practice/src
 $ npx tsc
 $  node ../dist/2.1/index.js
 ```
