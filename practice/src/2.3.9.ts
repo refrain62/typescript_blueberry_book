@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 
 rl.question('文字列を入力してください? ', (answer) => {
   // 文字列が入力されるとここが実行される
-  console.log(`Thank you for your valuable feedback: ${answer}`);
+  console.log(`${answer}が入力されました`);
 
   // 1000を足して出力
   // ⇒ 1231000 と表示さえる
