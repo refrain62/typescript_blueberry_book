@@ -5,7 +5,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('文字列を入力してください? ', (answer) => {
+rl.question('文字列を入力してください? ', (answer: any) => {
   // 文字列が入力されるとここが実行される
   console.log(`${answer}が入力されました`);
 

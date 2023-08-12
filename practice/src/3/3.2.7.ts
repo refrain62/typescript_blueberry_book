@@ -6,5 +6,5 @@
     const obj: MyObj = {foo: 123};
 
     // readonlyなのでエラー
-    obj.foo = 0;
+//    obj.foo = 0;
 }

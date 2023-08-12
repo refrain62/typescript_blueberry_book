@@ -6,7 +6,7 @@
     output: process.stdout
     });
 
-    rl.question('数値を入力してください? ', (answer) => {
+    rl.question('数値を入力してください? ', (answer: any) => {
         const num = Number(answer);
 
         // 123が入力された場合 1000を足して出力
