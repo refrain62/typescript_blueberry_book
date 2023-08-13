@@ -6,7 +6,7 @@
 //    const arr2: string[] = [123, 456];
 
     // 簡単な型の配列
-    const arr1: boolean[] = {false, true};
+    const arr1: boolean[] = [false, true];
 
     // 複雑な型の配列
     const arr2: Array<{
